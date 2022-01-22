@@ -8,6 +8,15 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Form />
+      <p>
+        <a href="https://github.com/Mideolabanji/weather-react" target="_blank">
+          Open-source code
+        </a>{" "}
+        by{" "}
+        <a href="https://ecstatic-volhard-31db0c.netlify.app/" target="_blank">
+          Olamide Olabanji
+        </a>
+      </p>
     </div>
   );
 }

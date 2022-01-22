@@ -10,3 +10,21 @@
 .Font {
   font-size: 26px;
 }
+
+.App p {
+  font-size: 20px;
+}
+
+.App a {
+  color: #f5831a;
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #282c34;
+}
