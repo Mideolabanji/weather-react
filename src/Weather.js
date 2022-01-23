@@ -3,7 +3,7 @@ import axios from "axios";
 import UpdateBody from "./updateBody";
 import "./App.css";
 
-export default function Search() {
+export default function Weather() {
   let [body, setBody] = useState(null);
   let [city, setCity] = useState(null);
   function handleSubmit(event) {
@@ -22,15 +22,22 @@ export default function Search() {
   }
 
   return (
-    <div className="Search">
+    <div className="Weather">
       <form onSubmit={handleSubmit}>
-        <input
-          onChange={updateCity}
-          className="padding margin"
-          type="search"
-          placeholder="Enter a city"
-        />
-        <input className="padding" type="submit" value="Search" />
+        <div className="row">
+          <div className="col-9">
+            <input
+              onChange={updateCity}
+              className="form-control"
+              type="search"
+              placeholder="Enter a city"
+              autoFocus="on"
+            />
+          </div>
+          <div className="col-3 ">
+            <input className="btn btn-secondary" type="submit" value="Search" />
+          </div>
+        </div>
       </form>
       {body}
     </div>

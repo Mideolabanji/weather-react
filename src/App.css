@@ -7,25 +7,53 @@
   margin-right: 5px;
 }
 
-.Font {
-  font-size: 26px;
-}
-
-.App p {
-  font-size: 20px;
-}
-
-.App a {
-  color: #f5831a;
-  text-decoration: none;
-}
-
-.App a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
 body {
-  background-color: #282c34;
-  color: white;
+  background-color: whitesmoke;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.App .weather-container {
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.setBody h2 {
+  font-size: 51px;
+  font-weight: 500;
+}
+
+.setBody h6,
+h5 {
+  font-weight: 400;
+}
+
+.setBody h5 {
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.setBody h1 .city-temperature {
+  font-weight: 100;
+  font-size: 120px;
+}
+
+.setBody h1 .degree {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  bottom: 70px;
+}
+
+.setBody ul {
+  list-style: none;
+  padding: 0;
+}
+
+.setBody img {
+  width: 50%;
 }
