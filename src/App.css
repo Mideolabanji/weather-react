@@ -1,9 +1,9 @@
-.Search .padding {
+.Body .padding {
   padding: 10px;
   font-size: 22px;
 }
 
-.Search .margin {
+.Body .margin {
   margin-right: 5px;
 }
 
@@ -22,38 +22,38 @@ body {
   box-shadow: 2px 2px 1px 1px rgb(0 0 0 / 10%);
 }
 
-.Search h2 {
+.Body h2 {
   font-size: 51px;
   font-weight: 500;
 }
 
-.Search h6,
+.Body h6,
 h5 {
   font-weight: 400;
 }
 
-.Search h5 {
+.Body h5 {
   font-style: italic;
   text-transform: capitalize;
 }
 
-.Search h1 .city-temperature {
+.Body h1 .city-temperature {
   font-weight: 100;
   font-size: 120px;
 }
 
-.Search h1 .degree {
+.Body h1 .degree {
   font-size: 24px;
   font-weight: 400;
   position: relative;
   bottom: 70px;
 }
 
-.Search ul {
+.Body ul {
   list-style: none;
   padding: 0;
 }
 
-.Search img {
+.Body img {
   width: 50%;
 }
