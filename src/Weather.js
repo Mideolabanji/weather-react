@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import { Rings } from "react-loader-spinner";
 import "./App.css";
 import Body from "./Body";
 
@@ -51,6 +53,6 @@ export default function Weather() {
   } else {
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Abuja&appid=872e937052bfbc7cf66f2ac8c3fcaba7&units=metric`;
     axios.get(apiUrl).then(displayWeatherData);
-    return "Loading...";
+    return <Rings />;
   }
 }
