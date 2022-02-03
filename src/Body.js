@@ -12,7 +12,7 @@ export default function Body(props) {
             <span className="city-temperature">
               {Math.round(props.property.temperature)}
             </span>
-            <span className="degree">C</span>
+            <span className="degree">°C</span>
           </h1>
         </div>
         <div className="col-6">
